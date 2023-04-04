@@ -11,7 +11,8 @@
 
 ## Abstract
 <p> <a href = 'https://www.ijrar.org/papers/IJRAR22B1901.pdf'> [ Paper Link ] </a> </p>
-The rapid exponential increase in the data led to an abrupt mix of various data types, leading to a deficiency of helpful information. Creating new data with the existing different types of data are presented in this paper. Augmentation is adding up or modifying the dataset with extra data. There are many types of augmentation done for various kinds of datasets. Augmentation has been widely used in multiple pre-processing steps of diverse machine learning pipelines. Many libraries or packages are made for augmentation called augmentation libraries. There are many salient features that each library supports. This paper seeks to enhance the library that makes the AugStatic library much more lightweight and efficient. AugStatic is a custom-built image augmentation library with lower computation costs and more extraordinary salient features compared to other image augmentation libraries. This framework can be used for NumPy array and tensors too.
+ The mixed data consists of various structured and unstructured data. The exponential boom of the amount of data has made the datasets of varying samples. This paper focuses on the image dataset generator that balances an imbalanced dataset using the AugStatic augmentation library. The datasets, including various classes, are said to be balanced if the number of samples in the classes is equal. This gives a fair chance for the model to learn about all the classes. An augmented image dataset balances an imbalanced image dataset. It is useful when the data is less in a specific category, generating new data with it. There are multiple augmentation techniques supported by the AugStatic library that helps in developing the augmented balanced library by the iterative implementation of the augmentations on the generated dataset. It takes an input of the existing dataset, majority and minority classes sample count that returns a balanced image dataset by iteratively applying the augmentations on the generated augmented images in the minority class. This generator is efficient and can be used for any image dataset.
+
 
 ---
 
@@ -109,11 +110,9 @@ The rapid exponential increase in the data led to an abrupt mix of various data 
 
 ## Conclusion:
 
-* In this research, An light weight Efficient Augmentation library has been developed, named AugStatic
-* This framework can be used for NumPy arrays and tensors too.
-* It supports all the augmentations of PyTorch, Keras, Imgaug, Albumentations and Augmentor.
-* AugStatic is a custom-built image augmentation library with lower computation costs and efficiency compared to other image augmentation libraries. 
-* It is built on python and is easily understandable and flexible enough to keep adding features. Hence, making it more scalable
+* There are multiple augmentation techniques supported by the AugStatic library that helps in developing the augmented balanced library by the iterative implementation of the augmentations on the generated dataset. 
+* It takes an input of the existing dataset, majority and minority classes sample count that returns a balanced image dataset by iteratively applying the augmentations on the generated augmented images in the minority class. 
+* This generator is computationally efficient and can be used for any image dataset.
 * With the advancement in augmentation, there is a lot of scope in making the AugStatic library for audio, NLP, and time-series data. 
 
 ---
