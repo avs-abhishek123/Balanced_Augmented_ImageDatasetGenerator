@@ -120,4 +120,4 @@
 ## To cite my paper: 
 |Citing Text|
 |---|
-| "AugStatic - A Light-Weight Image Augmentation Library", International Journal of Emerging Technologies and Innovative Research (www.jetir.org), ISSN:2349-5162, Vol.9, Issue 5, page no.b735-b742, May-2022, Available :http://www.jetir.org/papers/JETIR2205199.pdf |
+|   Allena Venkata Sai Abhishek,  Dr. Venkateswara Rao Gurrala,   "AUGMENTED BALANCED IMAGE DATASET GENERATOR USING AUGSTATIC LIBRARY", IJRAR - International Journal of Research and Analytical Reviews (IJRAR), E-ISSN 2348-1269, P- ISSN 2349-5138, Volume.9, Issue 2, Page No pp.536-543, May 2022, Available at : http://www.ijrar.org/IJRAR22B1901.pdf   |
